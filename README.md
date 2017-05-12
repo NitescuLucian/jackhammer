@@ -99,9 +99,14 @@ sh ./docker-build.sh SingleUser
 ```
 
 do signup for access
-
 ## Restarting Jackhammer
 
+```
+docker-compose stop
+docker-compose up -d
+```
+
+## Resting Jackhammer
 ```
 docker-compose stop
 docker-compose rm
